@@ -17,9 +17,12 @@
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.1",
     "gatsby": "^4.2.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-styled-components": "^5.2.0",
+    "gatsby-plugin-theme-ui": "^0.12.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "theme-ui": "^0.12.1"
   }
 }
