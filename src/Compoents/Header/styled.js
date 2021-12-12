@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import teme from '../../images/G68b-1.svg'
 import blackTeme from '../../images/G68Black.svg'
-import theme from '../../styles/theme'
+
 
 export const Component = styled.div`
   width: 100%;
@@ -93,4 +93,15 @@ export const ParagraphLocal = styled.p`
   padding-left: 1rem;
   transition: 0.5s;
   color: ${(props) => (props.teste ? '#fff' : 'black')};
+`
+
+export const Contactis = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: 'Bebas Neue';
+  a{
+    text-decoration: none;
+    color: ${(props) => (props.teste ? '#fff' : 'black')};
+  }
 `

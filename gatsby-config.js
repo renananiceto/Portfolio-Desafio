@@ -14,6 +14,14 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "alldata",
+        fieldName: "alldata",
+        url: "https://api-sa-east-1.graphcms.com/v2/ckx13c2ld1fcy01xq4atu1xgy/master",
+      },
+    },
   ],
 };
