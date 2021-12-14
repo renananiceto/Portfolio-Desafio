@@ -28,7 +28,7 @@ export const BoxElemente = styled.div`
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 45px 30px -30px rgb(0 0 0 / 30%);
-  border-radius: 5px;
+  border-radius: 45px;
   :hover{
     top: -120px;
     box-shadow: 0 65px 40px -30px rgb(0 0 0 / 20%);
@@ -36,7 +36,7 @@ export const BoxElemente = styled.div`
     :after{
       content: "Taxi";
       display: flex;
-      border-radius: 5px;
+      border-radius: 45px;
       justify-content: center;
       align-items: center;
       min-width: 15vw;
@@ -60,7 +60,7 @@ export const BoxElemente2 = styled.div`
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 45px 30px -30px rgb(0 0 0 / 30%);
-  border-radius: 5px;
+  border-radius: 45px;
   :hover{
     top: -120px;
     box-shadow: 0 65px 40px -30px rgb(0 0 0 / 20%);
@@ -68,7 +68,7 @@ export const BoxElemente2 = styled.div`
     :after{
       content: "002";
       display: flex;
-      border-radius: 5px;
+      border-radius: 45px;
       justify-content: center;
       align-items: center;
       min-width: 15vw;
@@ -92,7 +92,7 @@ export const BoxElemente3 = styled.div`
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 45px 30px -30px rgb(0 0 0 / 30%);
-  border-radius: 5px;
+  border-radius: 45px;
   :hover{
     top: -120px;
     box-shadow: 0 65px 40px -30px rgb(0 0 0 / 20%);
@@ -100,7 +100,7 @@ export const BoxElemente3 = styled.div`
     :after{
       content: "003";
       display: flex;
-      border-radius: 5px;
+      border-radius: 45px;
       justify-content: center;
       align-items: center;
       min-width: 15vw;

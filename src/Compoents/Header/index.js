@@ -46,7 +46,7 @@ export default function Header(props) {
               </S.BoxLogoLocal>
               <S.Contactis teste={props.teste}>
                 <p><a href='/sobre'>{titles[0].paragraph}</a></p>
-                <p><a href='/Contacts'>{titles[1].paragraph}</a></p>
+                <p><a href='/contacts'>{titles[1].paragraph}</a></p>
               </S.Contactis>
             </div>
           </S.Aboutme>
