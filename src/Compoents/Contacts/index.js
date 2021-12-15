@@ -7,7 +7,7 @@ export default function Sobre() {
     <S.Container>
       <S.Wrapper>
         <S.BoxTitle>
-          <h1>Sobre</h1>
+          <h1>Contato</h1>
         </S.BoxTitle>
         <S.BoxContent>
           <a href='https://github.com/renananiceto'>

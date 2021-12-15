@@ -14,6 +14,10 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  a{
+    text-decoration: none;
+    color: black;
+  }
 `
 
 export const BoxElemente = styled.div`
@@ -53,8 +57,9 @@ export const BoxElemente2 = styled.div`
   height: 10vw;
   background-color: ${props => props.checkd ? '#c1c1c1' : '#4c4f55'};
   background-image: url( ${props => props.fundo} );
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   top: -80px;
   cursor: pointer;
@@ -66,7 +71,7 @@ export const BoxElemente2 = styled.div`
     box-shadow: 0 65px 40px -30px rgb(0 0 0 / 20%);
     transition: 0.5s;
     :after{
-      content: "002";
+      content: "Wars";
       display: flex;
       border-radius: 45px;
       justify-content: center;
@@ -85,8 +90,9 @@ export const BoxElemente3 = styled.div`
   height: 10vw;
   background-color: ${props => props.checkd ? '#c1c1c1' : '#4c4f55'};
   background-image: url( ${props => props.fundo} );
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   top: -80px;
   cursor: pointer;
@@ -98,7 +104,7 @@ export const BoxElemente3 = styled.div`
     box-shadow: 0 65px 40px -30px rgb(0 0 0 / 20%);
     transition: 0.5s;
     :after{
-      content: "003";
+      content: "league";
       display: flex;
       border-radius: 45px;
       justify-content: center;
